@@ -1,0 +1,142 @@
+/*
+Theme Name: Puffy Modal
+Theme URI: http://dextercode.com/
+Description: Custom built theme to meet client requirements.
+Version: 1.0
+Author: HBK - (ReEdit: CR)
+Author URI: http://dextercode.com/
+Tags: white, one-column, two-columns, three-columns,four-columns, right-sidebar, responsive-layout, custom-colors, custom-menu, featured-images, theme-options, translation-ready, photoblogging
+License: GNU General Public License version 1.0
+License URI: http://dextercode.com/
+Text Domain: puffy
+*/
+/* --------------------------
+[Master Stylesheet]
+-------------------------- */
+
+.modal-trigger{
+text-decoration: none;
+padding:1rem;
+background:#f93434;
+display:inline-block;
+border-radius:3px;
+margin-top:50px;
+color:#fff;
+}
+.modal{
+display:none;
+background:rgba(0, 0, 0, .8);
+position:fixed;
+left:0;
+top:0;
+height:100%;
+width:100%;
+}
+.modal:target{
+display:table;
+}
+.modal__dialog{
+display:table-cell;
+vertical-align:middle;
+}
+
+.modal__content{
+background:rgb(255, 255, 255);
+width:60%;
+min-width:300px;
+margin:auto;
+position:relative;
+
+animation: slideUp 0.3s ease-in-out;
+}
+
+.modal__header{
+background:#2980b9;
+color:rgba(255, 255, 255, 0.8);
+padding:1rem;
+position:relative;
+}
+.modal__title{
+margin:0;
+}
+.modal__close{
+color:#fff;
+text-decoration: none;
+position:absolute;
+top:1rem;
+right:1rem;
+}
+.modal__image{
+display:block;
+margin:1rem auto;
+}
+.modal__text{
+padding:0 1rem;
+line-height:31px;
+font-size: 17px;
+padding-top: 10px;
+}
+.modal__footer{
+padding:1rem;
+}
+
+@keyframes slideUp{
+from{
+opacity:0;
+bottom: -200px;
+}
+to{
+opacity:1;
+bottom:0;
+}
+}
+.DjSeel {
+background-color: #fff;
+color: #000;
+border: 2px solid #000;
+padding: 8px 33px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+cursor: pointer;
+border-radius: 25px;
+margin: 5px;
+}
+.DjSeel:hover {
+color: white;
+border: 2px solid #80ba25;
+background-color: #80ba25;
+-webkit-box-shadow: -5px 7px 26px 3px rgba(0,0,0,0.18);
+-moz-box-shadow: -5px 7px 26px 3px rgba(0,0,0,0.18);
+box-shadow: -5px 7px 26px 3px rgba(0,0,0,0.18);
+}
+.ESFIUb {
+float: right;
+text-align: left;
+padding-left: 12px;
+line-height: 15px;
+
+}
+.ckWGn {
+background: 0 0;
+border: 0;
+cursor: pointer;
+height: 36px;
+outline: 0;
+overflow: hidden;
+position: absolute;
+right: 41px;
+top: 35px;
+z-index: 2;
+}
+.ckWGn::before {
+color: #fff;
+content: '\00D7';
+display: block;
+font-size: 58px;
+font-weight: 300;
+line-height: 36px;
+padding: 0;
+margin: 0;
+}

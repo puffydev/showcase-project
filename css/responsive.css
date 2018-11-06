@@ -1,0 +1,488 @@
+@media (min-width: 2001px) and (max-width: 4000px) {
+    .footer-area {
+        padding: 150px 0;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+    .footer-area {
+        padding: 80px 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .puffy-breadcumb-area {
+        height: 300px;
+    }
+    .bradcumbContent h2 {
+        font-size: 30px;
+    }
+    .footer-content h2 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .welcome-mobile-device img:first-child {
+        margin-right: 15px;
+    }
+    .welcome-content h2,
+    .about-app-content h2,
+    .app-faq-content h2,
+    .counter-area > h3,
+    .app-features-content h2,
+    .footer-content h2 {
+        font-size: 42px;
+    }
+    .welcome-content h4 {
+        font-size: 18px;
+    }
+    .about-us-bg-shape {
+        top: -20%;
+    }
+    .app-faq-content p {
+        margin-bottom: 30px;
+    }
+    .cool-facts-content > p {
+        font-size: 16px;
+    }
+    .pricing-plan-area {
+        padding: 70px 0;
+    }
+    .footer-content h4 {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .footer-social-info {
+        margin: 15px 0;
+    }
+    .puffy-breadcumb-area {
+        height: 280px;
+    }
+    .bradcumbContent h2 {
+        font-size: 24px;
+    }
+    #googleMap {
+        width: calc(100% - 50px);
+        height: 700px;
+        margin: 0 25px -100px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-dark .navbar-toggler-icon {
+        background: url("../Images/close-nav.png") no-repeat center center;
+    }
+    .navbar-dark .navbar-toggler {
+        cursor: pointer;
+        border-color: #fff;
+        background-color: #fff;
+    }
+    .menu_area #nav .nav-link {
+        color: #fff !important;
+    }
+    #puffy-navbar {
+        margin-top: 15px;
+    }
+    ._down ul li {
+        float: none;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ._down ._right {
+        margin-top: 15px !important;
+    }
+    ._down,._down ._right {
+        text-align: center;
+    }
+    ._widget {
+        margin-bottom: 25px;
+    }
+    ._desc {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #puffy-navbar {
+        padding: 15px;
+        border-radius: 3px;
+        background-color: #8dc63f;
+        text-align: left;
+    }
+    .header_area .navbar {
+        padding: 70px 0 0 0;
+        height: 110px;
+    }
+    .header_area.sticky .navbar {
+        padding: 0;
+        height: 70px;
+    }
+    .menu_area #nav .nav-link,
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 10px 5px;
+    }
+    .menu_area #nav .nav-link:hover,
+    .header_area.sticky .menu_area #nav .nav-link:hover {
+        color: #fff;
+        padding-left: 10px;
+    }
+    .welcome-mobile-device img:first-child {
+        margin-right: 15px;
+    }
+    .welcome-content h2,
+    .about-app-content h2,
+    .app-faq-content h2,
+    .counter-area > h3,
+    .app-features-content h2,
+    .footer-content h2 {
+        font-size: 30px;
+    }
+    .welcome-content h4 {
+        font-size: 16px;
+    }
+    .app-download-btn:first-child {
+        margin-right: 10px;
+    }
+    .welcome-mobile-device {
+        bottom: 30%;
+        width: 35%;
+    }
+    .app-download-area,
+    .app-feature-icon {
+        margin-top: 30px;
+    }
+    .about-app-content p {
+        color: #383839;
+    }
+    .cool-facts-content > p {
+        font-size: 12px;
+    }
+    .footer-content h4 {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    .footer-social-info {
+        margin: 15px 0;
+    }
+    .footer-social-info a {
+        font-size: 18px;
+        margin: 0 15px;
+    }
+    .copyright-text > p {
+        font-size: 14px;
+    }
+    .pricing-plan-area {
+        padding: 50px 0;
+    }
+    .bradcumbContent h2,
+    .bradcumbContent .breadcrumb-item a,
+    .bradcumbContent .breadcrumb-item {
+        color: inherit;
+    }
+    .blog-area,
+    .contact-area {
+        padding: 0;
+    }
+    #googleMap {
+        width: calc(100% - 30px);
+        height: 500px;
+        margin: 0 15px -100px;
+    }
+    .bradcumbContent h2 {
+        font-size: 30px;
+    }
+    .map-area {
+        margin-top: 100px;
+    }
+    .elements-area {
+        padding: 0 0 100px;
+    }
+    .services-content-mobile-area {
+        padding-right: 0;
+        padding-left: 150px;
+    }
+    .services-text h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .services-content-mobile-area {
+        padding-right: 0;
+        overflow-x: hidden;
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
+    .services-text h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .header_area,
+    .blog-area {
+        padding: 0;
+    }
+    .map-area {
+        margin-top: 100px;
+    }
+    .header_area .navbar {
+        padding: 0px;
+        height: 70px;
+    }
+    #puffy-navbar {
+        padding: 15px;
+        border-radius: 3px;
+        background-color: #8dc63f;
+        text-align: left;
+        margin-top:0px;
+        margin-right:-15px;
+        margin-left:-15px;
+    }
+    .menu_area #nav .nav-link,
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 5px;
+        padding-top:15px;
+        padding-bottom:15px;
+        width:100%;
+    }
+    .menu_area #nav .nav-link:hover,
+    .header_area.sticky .menu_area #nav .nav-link:hover {
+        color: #fff;
+        padding-left: 10px;
+    }
+    .search-form-area #search {
+        width: 300px;
+        margin-top: 15px;
+    }
+    .menu_area .navbar-brand {
+        font-size: 30px;
+        padding-top:5px;
+         padding-bottom:5px;
+    }
+    .welcome_area {
+        padding-top:150px;
+    }
+    .welcome-mobile-device img:first-child {
+        margin-right: 15px;
+    }
+    .welcome-content h2,
+    .about-app-content h2,
+    .app-faq-content h2,
+    .counter-area > h3,
+    .app-features-content h2,
+    .footer-content h2 {
+        font-size: 30px;
+    }
+    .welcome-content h4 {
+        font-size: 25px;
+    }
+    .app-features-area {
+    padding-top:100px;
+}
+    .app-download-btn:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .welcome-mobile-device {
+        display: none;
+    }
+    .app-download-area {
+        display: block;
+        margin-top: 30px;
+    }
+    .scroll-down-btn a {
+        margin-top: 50px;
+    }
+    .about-app-content {
+        padding-right: 0;
+        margin-top: 50px;
+    }
+    .about-app-content h2,
+    .about-app-content p {
+        color: #888;
+        text-align:center;
+    }
+    .about-app-content h2{
+        color: #383839;
+        font-weight:600;
+        margin-bottom:10px;
+    }
+    .about-hr{
+        text-align:center;
+    }
+    .about-app-content .hrw1, .about-app-content .hrw3{
+        background-color:#8dc63f;      
+    }
+    .about-app-content .hrw2{
+         background-color:transparent;
+    }
+    .footer-area .hrw1, .footer-area .hrw3{
+        background-color:#8dc63f;      
+    }
+    .footer-area .hrw2{
+         background-color:transparent;
+    }
+    .app-feature-icon {
+        margin-top: 30px;
+    }
+    .app-users-map-area {
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-top: 30px;
+    }
+    .coolfacts-content {
+        position: relative;
+        z-index: 9;
+        width: 100%;
+        top: 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        margin-top: 30px;
+    }
+    .single-cool-fact {
+        margin-bottom: 30px;
+    }
+    .cool-facts-content > p,
+    .counter-area > h3 {
+        color: #383839;
+    }
+    .app-feature-side-thumb {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        padding-top:25px;
+    }
+    .pricing-plan-area {
+        padding: 50px 0;
+    }
+    .footer-content h2 {
+        color: #383839;
+    }
+    .footer-content h4 {
+        color: #383839;
+        margin: 15px 0;
+        font-size: 16px;
+    }
+    .footer-content p {
+        color: #888;
+        font-size: 14px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer-social-info a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+    .copyright-text > p {
+        font-size: 14px;
+    }
+    .about-us-bg-shape {
+        top: 0;
+    }
+    .puffy-breadcumb-area {
+        height: 300px;
+    }
+    .bradcumbContent h2,
+    .bradcumbContent .breadcrumb-item a,
+    .bradcumbContent .breadcrumb-item {
+        color: inherit;
+    }
+    .single-pie-bar,
+    .contact-form-area {
+        margin-bottom: 50px;
+    }
+    .aboutUs-headline h2,
+    .bradcumbContent h2,
+    .single-blog h2 {
+        font-size: 30px;
+    }
+    #googleMap {
+        width: calc(100% - 30px);
+        height: 400px;
+        margin: 0 15px 50px;
+    }
+    .contact-area {
+        padding: 0;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .contact-box{
+        background-color:#f8f8f8;
+    }
+    .elements-area {
+        padding: 0 0 100px;
+    }
+    .puffy-btn {
+        margin-bottom: 15px;
+    }
+    .footer-content{
+        padding-top:75px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .single-pie-bar {
+        margin-bottom: 50px;
+    }
+    .aboutUs-headline h2 {
+        font-size: 30px;
+    }
+    .app-download-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 50px;
+    }
+    .app-download-btn:first-child {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-app-content{
+        position:relative; 
+        top:-175px;
+    }
+    .app-feature-icon{
+        margin-top:150px
+    }
+    .contact-box {
+    position:relative;
+    bottom:-50px;
+}
+    .feature-right{
+        padding-left:50px;
+    }
+    .app-features-area {
+    top:-100px;
+}
+    .contact-area {
+    top:-75px;
+    padding-top:0px;
+}
+
+}
+@media (max-width: 479px){
+    ._title {
+        margin-bottom: 25px;
+    }
+   
+    ._btns a.btn {
+        width: 100%;
+    }
+    ._btns a.btn + .btn {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .h1, h1 {
+        font-size: 28px;
+    }
+}
